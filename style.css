@@ -673,11 +673,31 @@ h3 {
 
 .footer-links {
   display: flex;
+  align-items: center;
   gap: 16px;
+  flex-wrap: wrap;
 }
 
-.footer-links a:hover {
+.footer-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.footer-link:hover {
   color: var(--text);
+  transform: translateY(-1px);
+}
+
+.footer-icon {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  object-fit: contain;
 }
 
 .placeholder-link {
