@@ -483,6 +483,30 @@ h3 {
   background-size: auto, 24px 24px, 24px 24px;
 }
 
+.placeholder-image.orange {
+  background:
+    linear-gradient(135deg, rgba(237, 104, 25, 0.9), rgba(166, 140, 102, 0.78)),
+    linear-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+  background-size: auto, 24px 24px, 24px 24px;
+}
+
+.placeholder-image.tan {
+  background:
+    linear-gradient(135deg, rgba(166, 140, 102, 0.9), rgba(164, 152, 128, 0.78)),
+    linear-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+  background-size: auto, 24px 24px, 24px 24px;
+}
+
+.placeholder-image.red {
+  background:
+    linear-gradient(135deg, rgba(213, 84, 44, 0.92), rgba(237, 104, 25, 0.72)),
+    linear-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+  background-size: auto, 24px 24px, 24px 24px;
+}
+
 .project-content {
   padding: 22px;
 }
